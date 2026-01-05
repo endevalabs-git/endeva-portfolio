@@ -17,7 +17,7 @@ export function Navigation() {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ease-out ${
+    <nav className={`fixed w-full z-50 transition-all duration-300 ease-out shadow-highlight-3 ${
       isScrolled
         ? `md:top-0 md:bg-white md:border-b md:border-neutral-200 md:rounded-none top-4 bg-white/80 backdrop-blur-xl border-b border-neutral-200/50 md:py-4 py-3 ${isOpen ? 'rounded-xl' : 'rounded-full'}`
         : 'top-0 bg-white border-b border-neutral-200 py-4 md:py-6 rounded-none'
